@@ -37,7 +37,7 @@
 
 @media screen and (min-width: 1024px) {
     .banner {
-        padding: 7em 5em;
+        padding: 7em 0em;
     }
 
     .banner__titulo {
@@ -56,4 +56,14 @@
     .banner__pesquisa::placeholder {
         background-position: 7em;
     }   
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__pesquisa {
+        width: 38%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 10em;
+    }  
 }
